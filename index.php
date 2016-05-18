@@ -71,16 +71,16 @@ $henuId=$_SESSION['henuid'];
 
   </body>
   </html>
-=======
-<?php
-session_start();
-if (isset($_SESSION['henuid'])) {
- if ($_SESSION['henuid']==1) {
-   include('./layout/administrateHeader.inc.php');
- }else{
-  include('./layout/loggedHeader.inc.php');
-}
-$henuId=$_SESSION['henuid'];
+  =======
+  <?php
+  session_start();
+  if (isset($_SESSION['henuid'])) {
+   if ($_SESSION['henuid']==1) {
+     include('./layout/administrateHeader.inc.php');
+   }else{
+    include('./layout/loggedHeader.inc.php');
+  }
+  $henuId=$_SESSION['henuid'];
 }else{
   include('./layout/header.inc.php');
 }
@@ -145,4 +145,4 @@ $henuId=$_SESSION['henuid'];
 
   </body>
   </html>
->>>>>>> e769018c1717fa08580e854e5f18736d73757250
+
