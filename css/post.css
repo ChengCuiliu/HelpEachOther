@@ -1,0 +1,10 @@
+body{
+  margin-top: 80px;
+}
+textarea{
+  min-height: 100px;
+}
+
+.content{
+  font-size: 20px;
+}

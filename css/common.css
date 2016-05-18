@@ -1,0 +1,138 @@
+
+  body {
+
+  }
+
+ label {
+  display: block;
+  padding: 40px 5px 5px 2px;
+  font-size: 1.1em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+ input,
+textarea,
+select {
+  font-family: 'Lato', Calibri, Arial, sans-serif;
+  line-height: 1.5;
+  font-size: 1.4em;
+  padding: 5px 10px;
+  color: black;
+  display: block;
+  width: 100%;
+  background: transparent;
+}
+
+hr{
+border: 0.5px solid lightgray;
+}
+
+input,
+textarea {
+  border: 1px solid black;
+}
+
+textarea {
+  min-height: 150px;
+}
+
+. input:focus,
+textarea:focus,
+label:active + input,
+ label:active + textarea {
+  outline: none;
+  border: 1px solid #10689a;
+}
+
+select:focus {
+  outline: none;
+}
+
+input.cbp-mc-submit {
+  background: #10689a;
+  border: none;
+  color: #fff;
+  width: auto;
+  cursor: pointer;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 1.1em;
+  border-radius: 2px;
+  letter-spacing: 1px;
+}
+
+
+.pagination{
+  margin-left: 500px;
+  margin-bottom: 30px;
+}
+.show {
+  color: blue;
+  margin: 5px 0;
+  padding: 3px 5px;
+  cursor: pointer;
+  font: 15px/19px Arial,Helvetica,sans-serif;
+}
+.show a {
+  text-decoration: none;
+}
+.show:hover {
+  text-decoration: underline;
+}
+
+
+ul.setPaginate li.setPage{
+  padding:15px 10px;
+  font-size:14px;
+}
+
+ul.setPaginate{
+  margin:0px;
+  padding:0px;
+  overflow:hidden;
+  font:12px 'Tahoma';
+  list-style-type:none;
+}
+
+ul.setPaginate li.dot{padding: 3px 0;}
+
+ul.setPaginate li{
+  float:left;
+  margin:0px;
+  padding:0px;
+  margin-left:5px;
+}
+
+ul.setPaginate li a
+{
+  background: none repeat scroll 0 0 #ffffff;
+  border: 1px solid #cccccc;
+  color: #999999;
+  display: inline-block;
+  font: 15px/25px Arial,Helvetica,sans-serif;
+  margin: 5px 3px 0 0;
+  padding: 0 5px;
+  text-align: center;
+  text-decoration: none;
+}
+
+ul.setPaginate li a:hover,
+ul.setPaginate li a.current_page
+{
+  background: none repeat scroll 0 0 #0d92e1;
+  border: 1px solid #000000;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+ul.setPaginate li a{
+  color:black;
+  display:block;
+  text-decoration:none;
+  padding:5px 8px;
+  text-decoration: none;
+}
+
+

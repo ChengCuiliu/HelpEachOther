@@ -1,0 +1,73 @@
+body{
+	margin-top:35px;
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+	color: black;
+	background: #fff url(../images/bg.jpg) repeat top left;
+}
+.parent{ padding:3px; width:150px; float:left; margin-right:12px;}
+.shipment{ padding:3px; width:150px; float:left; margin-right:12px;}
+
+.main {
+	width: 100%;
+	padding: 0 2em 3em;
+	max-width: 100em;
+}
+
+label {
+	display: block;
+	padding: 40px 5px 5px 2px;
+	font-size: 1.1em;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+input,
+textarea,
+select {
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+	line-height: 1.5;
+	font-size: 1.4em;
+	padding: 5px 10px;
+	color: black;
+	display: block;
+	background: transparent;
+}
+
+input,
+textarea {
+	border: 1px solid black;
+}
+
+textarea {
+	min-height: 150px;
+}
+
+input:focus,
+textarea:focus,
+label:active + input,
+label:active + textarea {
+	outline: none;
+	border: 1px solid #10689a;
+}
+
+select:focus {
+	outline: none;
+}
+
+input.cbp-mc-submit {
+	background: #10689a;
+	border: none;
+	color: #fff;
+	width: auto;
+	cursor: pointer;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 15px 30px;
+	font-size: 1.1em;
+	border-radius: 2px;
+	letter-spacing: 1px;
+}
+
+input.cbp-mc-submit:hover {
+	background: #1478b1;
+}
